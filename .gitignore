@@ -1,0 +1,38 @@
+# Wazuh sensitive
+wazuh.conf
+api.log
+*.pem
+*.key
+certificates/
+
+# Elasticsearch
+elasticsearch-data/
+elasticsearch.yml
+
+# Agents
+agents/
+agent-logs/
+
+# Logs
+logs/
+*.log
+activity.log
+
+# Docker
+docker-compose.override.yml
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+venv/
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
